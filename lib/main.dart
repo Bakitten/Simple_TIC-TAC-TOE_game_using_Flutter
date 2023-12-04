@@ -25,7 +25,7 @@ class GameScreen extends StatefulWidget {
 class _GameScreenState extends State<GameScreen> {
   List<List<String>> gameBoard = List<List<String>>.generate(
     3,
-        (int index) => List<String>.filled(3, ''),
+    (int index) => List<String>.filled(3, ''),
     growable: false,
   );
 
@@ -166,7 +166,7 @@ class _GameScreenState extends State<GameScreen> {
     setState(() {
       gameBoard = List<List<String>>.generate(
         3,
-            (int index) => List<String>.filled(3, ''),
+        (int index) => List<String>.filled(3, ''),
         growable: false,
       );
       isPlayer1Turn = true;
