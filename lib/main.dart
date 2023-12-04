@@ -5,7 +5,7 @@ void main() {
 }
 
 class TicTacToe extends StatelessWidget {
-  const TicTacToe({Key? key});
+  const TicTacToe({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +16,7 @@ class TicTacToe extends StatelessWidget {
 }
 
 class GameScreen extends StatefulWidget {
-  const GameScreen({Key? key});
+  const GameScreen({super.key});
 
   @override
   State<GameScreen> createState() => _GameScreenState();
